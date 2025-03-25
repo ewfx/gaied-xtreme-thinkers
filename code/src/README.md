@@ -36,8 +36,8 @@ Installation
 
 Clone the repository:
 
-git clone https://github.com/your-repo/genai-email-poc.git
-cd genai-email-poc
+git clone https://github.com/ewfx/gaied-xtreme-thinkers.git
+cd gaied-xtreme-thinkers
 
 Install dependencies:
 
