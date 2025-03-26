@@ -90,55 +90,15 @@ By implementing these measures, we aim to eliminate any potential issues related
 ## 🏃 How to Run
 1. Clone the repository  
    ```sh
-   git clone https://github.com/your-repo.git
+   git clone https://github.com/ewfx/gaied-xtreme-thinkers.git
    ```
 2. Install dependencies  
    ```sh
-   npm install  # or pip install -r requirements.txt (for Python)
+   pip install -r requirements.txt
    ```
 3. Run the project  
    ```sh
-   npm start  # or python app.py
-   ```
-Installation & Setup
-
-Prerequisites
-
-Python 3.8+
-
-OpenAI API Key
-
-IMAP Email Access
-
-Flask for the web UI
-
-Installation
-
-Clone the repository:
-
-git clone https://github.com/ewfx/gaied-xtreme-thinkers.git
-cd gaied-xtreme-thinkers
-
-Install dependencies:
-
-pip install -r requirements.txt
-
-Configure the config.json file with your OpenAI API key and email credentials:
-
-{
-    "openai_api_key": "your-api-key",
-    "email_host": "imap.example.com",
-    "email_user": "your-email@example.com",
-    "email_pass": "your-password",
-    "openai_model": "gpt-4",
-    "classification_prompt": "Classify the following email: {email_content}",
-    "extraction_prompt": "Extract structured data from this email: {email_content}",
-    "routing_map": { "Loan Adjustment": "Loan Processing Team" }
-}
-
-Running the Application
-
-Option 1: Run with Shell Script (Linux/macOS)
+   Option 1: Run with Shell Script (Linux/macOS)
 
 chmod +x run.sh
 ./run.sh
@@ -162,23 +122,27 @@ cd unit_tests
 Run all tests:
 
 python -m unittest discover
+   ```
+
+
+
 
 Folder Structure
 
-├── app.py               # Main application file
-├── config.json          # Configuration file
-├── templates/           # HTML files for web UI
-│   ├── index.html
-├── static/              # Static files (CSS, JS)
-├── unit_tests/          # Unit test scripts
-│   ├── test_email_fetch.py
-│   ├── test_classification.py
-│   ├── test_data_extraction.py
-│   ├── test_routing.py
-├── requirements.txt     # Python dependencies
-├── run.sh               # Shell script to start app
-├── run.bat              # Windows batch script to start app
-├── README.md            # Project documentation
+                  ├── app.py               # Main application file
+                  ├── config.json          # Configuration file
+                  ├── templates/           # HTML files for web UI
+                  │   ├── index.html
+                  ├── static/              # Static files (CSS, JS)
+                  ├── unit_tests/          # Unit test scripts
+                  │   ├── test_email_fetch.py
+                  │   ├── test_classification.py
+                  │   ├── test_data_extraction.py
+                  │   ├── test_routing.py
+                  ├── requirements.txt     # Python dependencies
+                  ├── run.sh               # Shell script to start app
+                  ├── run.bat              # Windows batch script to start app
+                  ├── README.md            # Project documentation
 
 ## 🏗️ Tech Stack
 
@@ -197,5 +161,7 @@ Our application is designed with flexibility in mind, utilizing JSON (JavaScript
 
 **GitHub for Version
 ## 👥 Team
-- **Your Name** - [GitHub](#) | [LinkedIn](#)
-- **Teammate 2** - [GitHub](#) | [LinkedIn](#)
+- **Harihara Pamidi** - [GitHub](#) | [LinkedIn](#)
+- **Pavan Kumar Harikeerthi** - [GitHub](#) | [LinkedIn](#)
+- **Shiva Papini** - [GitHub](#) | [LinkedIn](#)
+- **Rupesh Pachipala** - [GitHub](#) | [LinkedIn](#)
