@@ -1,0 +1,14 @@
+{
+    "openai_api_key": "",
+    "email_host": "imap.gmail.com",
+    "email_user": "xyz@gmail.com",
+    "email_pass": "16 char mail app password",
+    "classification_prompt": "Classify the following email content: {email_content}",
+    "extraction_prompt": "Extract relevant data from the following email content: {email_content}",
+    "routing_map": {
+        "Loan Adjustment": "Loan Processing Team",
+        "Payment Request": "Payments Team",
+        "Unknown": "General Queue"
+    },
+	"openai_model": "gpt-3.5-turbo"
+}
