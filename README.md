@@ -7,7 +7,7 @@
 - [What It Does](#what-it-does)
 - [How We Built It](#how-we-built-it)
 - [Challenges We Faced](#challenges-we-faced)
-- [How to Run](#how-to-run)
+- [How to Run](#-how-to-run)
 - [Tech Stack](#-tech-stack)
 - [Team](#team)
 
