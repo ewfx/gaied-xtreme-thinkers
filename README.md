@@ -100,28 +100,28 @@ By implementing these measures, we aim to eliminate any potential issues related
    ```sh
    Option 1: Run with Shell Script (Linux/macOS)
 
-chmod +x run.sh
-./run.sh
-
-Option 2: Run with Batch Script (Windows)
-
-run.bat
-
-Option 3: Manually Start Flask App
-
-python app.py
-
-Once running, access the UI at http://127.0.0.1:5000/.
-
-Running Unit Tests
-
-Navigate to the unit_tests directory:
-
-cd unit_tests
-
-Run all tests:
-
-python -m unittest discover
+                        chmod +x run.sh
+                        ./run.sh
+                        
+                        Option 2: Run with Batch Script (Windows)
+                        
+                        run.bat
+                        
+                        Option 3: Manually Start Flask App
+                        
+                        python app.py
+                        
+                        Once running, access the UI at http://127.0.0.1:5000/.
+                        
+                        Running Unit Tests
+                        
+                        Navigate to the unit_tests directory:
+                        
+                        cd unit_tests
+                        
+                        Run all tests:
+                        
+                        python -m unittest discover
    ```
 
 
@@ -161,7 +161,7 @@ Our application is designed with flexibility in mind, utilizing JSON (JavaScript
 
 **GitHub for Version
 ## 👥 Team
-- **Harihara Pamidi** - [GitHub](#) | [LinkedIn](#)
+- ** Pamidi, Harihara ** - [GitHub](#) | [LinkedIn](#)
 - **Pavan Kumar Harikeerthi** - [GitHub](#) | [LinkedIn](#)
 - **Shiva Papini** - [GitHub](#) | [LinkedIn](#)
 - **Rupesh Pachipala** - [GitHub](#) | [LinkedIn](#)
