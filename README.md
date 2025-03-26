@@ -161,7 +161,7 @@ Our application is designed with flexibility in mind, utilizing JSON (JavaScript
 
 **GitHub for Version
 ## 👥 Team
-- ** Pamidi, Harihara ** - [GitHub](#) | [LinkedIn](#)
+- **Harihara** - [GitHub](#) | [LinkedIn](#)
 - **Pavan Kumar Harikeerthi** - [GitHub](#) | [LinkedIn](#)
 - **Shiva Papini** - [GitHub](#) | [LinkedIn](#)
 - **Rupesh Pachipala** - [GitHub](#) | [LinkedIn](#)
